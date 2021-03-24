@@ -1,4 +1,4 @@
-[![YeBoie](https://telegra.ph/file/6001bdb5a5808e924401e.jpg)](https://youtu.be/Pk_TthHfLeE)
+[![YeBoie](https://telegra.ph/file/7a38dc0650b11ceced3b1.png)](https://youtu.be/Pk_TthHfLeE)
 
 # Features supported:
 - Mirroring direct download links to google drive
