@@ -1,15 +1,15 @@
 {
-    "name": "YeBoie-MirrorBot ",
+    "name": "RIDLEY-MirrorBot ",
     "description": "Telegram mirror bot with python",
-    "logo": "https://telegra.ph/file/23a778d03cf076c5609f8.jpg",
+    "logo": "https://telegra.ph/file/7a38dc0650b11ceced3b1.png",
     "keywords": [
       "bot",
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/Prashant1695/YeBoieMirrorBot",
+    "repository": "https://github.com/Prashant-blip-cell/RIDLEY",
     "website": "https://t.me/ImPrashantt",
-    "success_url": "https://github.com/Prashant1695/YeBoieMirrorBot/blob/master/README.md",
+    "success_url": "https://github.com/Prashant-blip-cell/RIDLEY/blob/master/README.md",
     "stack": "container",
     "env": {
       "ENV": {
