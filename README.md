@@ -22,8 +22,8 @@ Deploying is lengthy process required patience & here goes the steps :
 
 - Clone this repo in your device:
 ```
-git clone https://github.com/Prashant1695/YeBoieMirrorBot 
-cd YeBoieMirrorBot
+git clone https://github.com/Prashant-blip-cell/RIDLEY 
+cd RIDLEY
 ```
 - Install dependencies for running setup scripts:
 ```shell script
@@ -123,7 +123,7 @@ heroku ps:scale worker=1
 ```
 
 ## Youtube-dl authentication using .netrc file
-For using your premium accounts in youtube-dl, edit the [.netrc](https://github.com/Prashant1695/YeBoieMirrorBot/blob/master/.netrc) file according to following format:
+For using your premium accounts in youtube-dl, edit the [.netrc](https://github.com/Prashant-blip-cell/RIDLEY/blob/master/.netrc) file according to following format:
 ```
 machine host login username password my_youtube_password
 ```
