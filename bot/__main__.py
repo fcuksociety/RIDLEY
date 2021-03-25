@@ -44,10 +44,10 @@ def stats(update, context):
 @run_async
 def start(update, context):
     start_string = f'''
-Hi, I'm [YeBoie Bot](https://github.com/Prashant1695/YeBoieMirrorBot), a multipurpose bot by [Prashant | U•bisshGáng ⁪⁬⁮⁮⁮](t.me/ImPrashantt)
+Hi, I'm [RIDLEY Bot](https://github.com/Prashant-blip-cell/RIDLEY), a multipurpose bot by [Prashant | U•bisshGáng ⁪⁬⁮⁮⁮](t.me/ImPrashantt)
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
-    update.effective_message.reply_photo("https://telegra.ph/file/6001bdb5a5808e924401e.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_photo("https://telegra.ph/file/7a38dc0650b11ceced3b1.png", start_string, parse_mode=ParseMode.MARKDOWN)
 
 
 @run_async
