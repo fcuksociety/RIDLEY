@@ -44,7 +44,7 @@ def stats(update, context):
 @run_async
 def start(update, context):
     start_string = f'''
-Hi {update.message.chat.first_name}, This bot can mirror all your links to Google drive! Thank You.
+This bot can mirror all your links to Google drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
     update.effective_message.reply_photo("https://telegra.ph/file/7a38dc0650b11ceced3b1.png", start_string, parse_mode=ParseMode.MARKDOWN)
@@ -52,11 +52,11 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
 
 @run_async
 def repo(update, context):
-	bot.send_message(update.message.chat_id,
-	reply_to_message_id=update.message.message_id,
-	text="Repo: https://github.com/Prashant-blip-cell/RIDLEY", disable_web_page_preview=True)
-	
-	
+    bot.send_message(update.message.chat_id,
+    reply_to_message_id=update.message.message_id,
+    text="Repo: https://github.com/Prashant-blip-cell/RIDLEY", disable_web_page_preview=True)
+
+
 @run_async
 def restart(update, context):
     restart_message = sendMessage("Restarting, Please wait!", context.bot, update)
@@ -85,41 +85,23 @@ def log(update, context):
 def bot_help(update, context):
     help_string = f'''
 /{BotCommands.HelpCommand}: To get this message
-
 /{BotCommands.MirrorCommand} [download_url][magnet_link]: Start mirroring the link to google drive
-
 /{BotCommands.UnzipMirrorCommand} [download_url][magnet_link]: Starts mirroring and if downloaded file is any archive, extracts it to google drive
-
 /{BotCommands.TarMirrorCommand} [download_url][magnet_link]: Start mirroring and upload the archived (.tar) version of the download
-
 /{BotCommands.CloneCommand}: Copy file/folder to google drive
-
 /{BotCommands.WatchCommand} [youtube-dl supported link]: Mirror through youtube-dl. Click /{BotCommands.WatchCommand} for more help.
-
 /{BotCommands.TarWatchCommand} [youtube-dl supported link]: Mirror through youtube-dl and tar before uploading
-
 /{BotCommands.CancelMirror}: Reply to the message by which the download was initiated and that download will be cancelled
-
 /{BotCommands.StatusCommand}: Shows a status of all the downloads
-
 /{BotCommands.ListCommand} [search term]: Searches the search term in the Google drive, if found replies with the link
-
 /{BotCommands.StatsCommand}: Show Stats of the machine the bot is hosted on
-
 /{BotCommands.AuthorizeCommand}: Authorize a chat or a user to use the bot (Can only be invoked by owner of the bot)
-
 /{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports
-
 /{BotCommands.UsageCommand}: To see Heroku Dyno Stats (Owner only).
-
 /{BotCommands.SpeedCommand}: Check Internet Speed of the Host
-
 /{BotCommands.RepoCommand}: Get the bot repo.
-
 /tshelp: Get help for torrent search module.
-
 /weebhelp: Get help for anime, manga and character module.
-
 /stickerhelp: Get help for stickers module.
 '''
     sendMessage(help_string, context.bot, update)
