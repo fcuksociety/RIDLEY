@@ -11,12 +11,6 @@
 - Service account support
 - Mirror telegram files
 
-## Deploying on Heroku
-
-Give Star & Fork this repo, then upload **token.pickle** to your forks
-
-<p><a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPrashant-blip-cell%2FRIDLEY&template=https%3A%2F%2Fgithub.com%2FPrashant-blip-cell%2FRIDLEY"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
-
 # How to deploy?
 Deploying is lengthy process required patience & here goes the steps :
 
